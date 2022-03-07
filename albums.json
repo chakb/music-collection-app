@@ -1,0 +1,74 @@
+{
+  "albums": [
+    {
+      "title": "Iron Maiden",
+      "coverUrl": "https://m.media-amazon.com/images/I/81d7FwMzNPL._SS500_.jpg",
+      "year": 1980,
+      "genre": "Heavy Metal",
+      "artistId": "621e5a775fefb30013e1c65f"
+    },
+    {
+      "title": "Killers",
+      "coverUrl": "https://m.media-amazon.com/images/I/918AwBvJx3L._SS500_.jpg",
+      "year": 1981,
+      "genre": "Heavy Metal",
+      "artistId": "621e5a775fefb30013e1c65f"
+    },
+    {
+      "title": "The Number Of The Beast",
+      "coverUrl": "https://m.media-amazon.com/images/I/91C4+sE0phL._SS500_.jpg",
+      "year": 1982,
+      "genre": "Heavy Metal",
+      "artistId": "621e5a775fefb30013e1c65f"
+    },  
+    {
+      "title": "Piece Of Mind",
+      "coverUrl": "https://m.media-amazon.com/images/I/91rA4Qsx89L._SS500_.jpg",
+      "year": 1983,
+      "genre": "Heavy Metal",
+      "artistId": "621e5a775fefb30013e1c65f"
+    },
+    {
+      "title": "Powerslave",
+      "artistId": "621e5a775fefb30013e1c65f",
+      "coverUrl": "https://m.media-amazon.com/images/I/81rSjhYMQ8L._SS500_.jpg",
+      "year": 1984,
+      "genre": "Heavy Metal"
+    },
+    {
+      "title": "Live After Death",
+      "artistId": "621e5a775fefb30013e1c65f",
+      "coverUrl": "https://m.media-amazon.com/images/I/91K2Zz0BroL._SS500_.jpg",
+      "year": 1985,
+      "genre": "Heavy Metal"
+    },
+    {
+      "title": "Somewhere in Time",
+      "artistId": "621e5a775fefb30013e1c65f",
+      "coverUrl": "https://m.media-amazon.com/images/I/81nZXD061gL._SS500_.jpg",
+      "year": 1986,
+      "genre": "Heavy Metal"
+    },
+    {
+      "title": "Seventh Son Of A Seventh Son",
+      "artistId": "621e5a775fefb30013e1c65f",
+      "coverUrl": "https://m.media-amazon.com/images/I/81hdDi0P7CL._SS500_.jpg",
+      "year": 1988,
+      "genre": "Heavy Metal"
+    },
+    {
+      "title": "No Prayer For The Dying",
+      "artistId": "621e5a775fefb30013e1c65f",
+      "coverUrl": "https://m.media-amazon.com/images/I/81fSjql+FwL._SS500_.jpg",
+      "year": 1990,
+      "genre": "Heavy Metal"
+    },
+    {
+      "title": "Fear Of The Dark",
+      "artistId": "621e5a775fefb30013e1c65f",
+      "coverUrl": "https://m.media-amazon.com/images/I/81wQOjRxpTL._SS500_.jpg",
+      "year": 1992,
+      "genre": "Heavy Metal"
+    }
+  ]
+}
