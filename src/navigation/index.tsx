@@ -35,7 +35,7 @@ function ArtistsStackScreen() {
       <ArtistsStack.Screen
         name="Artists"
         component={ArtistsScreen}
-        options={{ title: 'Artists' }}
+        options={{ title: 'Artists', headerBackVisible: false }}
       />
       <ArtistsStack.Screen name="ArtistDetails" component={ArtistDetailsScreen} />
       <ArtistsStack.Screen

@@ -1,6 +1,7 @@
 import { useLayoutEffect } from 'react';
 import { Button, StyleSheet, ScrollView } from 'react-native';
 import axios from 'axios';
+import { HeaderBackButton, HeaderBackButtonProps } from '@react-navigation/elements';
 
 import { View, Text } from '../components/Themed';
 import { ArtistsStackScreenProps } from '../../types';
@@ -39,6 +40,14 @@ export default function ArtistDetailsScreen({
   }
 
   useLayoutEffect(() => {
+    const overrideBack = (props: HeaderBackButtonProps) => (
+      <HeaderBackButton {...props} onPress={() => navigation.navigate('Artists')} />
+    );
+
+    navigation.setOptions({
+      headerLeft: (props) => overrideBack(props),
+    });
+
     if (artist) {
       navigation.setOptions({ title: `${artist.name}` });
     } else {
